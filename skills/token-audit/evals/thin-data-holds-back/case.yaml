@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: thin-data-holds-back
+expected_outcome: |
+  Says there is too little data (2 active days, 36 requests) to tune on, shows what little there is as provisional, offers to re-run later, and edits nothing.
+context:
+  scaffold_script: place-files.sh
